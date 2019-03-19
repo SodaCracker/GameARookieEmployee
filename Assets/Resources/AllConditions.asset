@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb1e27e3a714844b8b173dccfaf9edc, type: 3}
+  m_Name: AllConditions
+  m_EditorClassIdentifier: 
+  conditions:
+  - {fileID: 114492027180103560}
+  - {fileID: 114249415608285688}
+  - {fileID: 114899963301422434}
+  - {fileID: 114697366488929366}
+  - {fileID: 114074021757892380}
+  - {fileID: 114174359014943198}
+  - {fileID: 114671117249648776}
+  - {fileID: 114760940147739056}
+  - {fileID: 114608188217689118}
+  - {fileID: 114857858627656318}
+--- !u!114 &114074021757892380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: HasBag
+  m_EditorClassIdentifier: 
+  description: HasBag
+  satisfied: 1
+  hash: 1396674462
+--- !u!114 &114174359014943198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: PickedUpBag
+  m_EditorClassIdentifier: 
+  description: PickedUpBag
+  satisfied: 1
+  hash: -609387676
+--- !u!114 &114249415608285688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: HasNotebook
+  m_EditorClassIdentifier: 
+  description: HasNotebook
+  satisfied: 0
+  hash: -1708196340
+--- !u!114 &114492027180103560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: HasKeys
+  m_EditorClassIdentifier: 
+  description: HasKeys
+  satisfied: 1
+  hash: -1565878706
+--- !u!114 &114608188217689118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: BagPrepared
+  m_EditorClassIdentifier: 
+  description: BagPrepared
+  satisfied: 0
+  hash: -368785160
+--- !u!114 &114671117249648776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: PickedUpPassCard
+  m_EditorClassIdentifier: 
+  description: PickedUpPassCard
+  satisfied: 0
+  hash: 705419231
+--- !u!114 &114697366488929366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: PickedUpKeys
+  m_EditorClassIdentifier: 
+  description: PickedUpKeys
+  satisfied: 1
+  hash: -11919432
+--- !u!114 &114760940147739056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: PickedUpNotebook
+  m_EditorClassIdentifier: 
+  description: PickedUpNotebook
+  satisfied: 0
+  hash: -1671214627
+--- !u!114 &114857858627656318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: YouWin
+  m_EditorClassIdentifier: 
+  description: YouWin
+  satisfied: 0
+  hash: -1442386902
+--- !u!114 &114899963301422434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c5e62fe4f011d4aab26e25dd682219, type: 3}
+  m_Name: HasPassCard
+  m_EditorClassIdentifier: 
+  description: HasPassCard
+  satisfied: 0
+  hash: 742809614
