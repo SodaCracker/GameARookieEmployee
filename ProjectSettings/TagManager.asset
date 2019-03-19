@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Player
+  - Fade
+  - InteractionItem
+  - NavMesh
+  - Mark
+  - MiniCamera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2964020423
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fade
+    uniqueID: 4065456373
+    locked: 0
+  - name: InteractionItem
+    uniqueID: 522152235
+    locked: 0
+  - name: Mark
+    uniqueID: 960981857
+    locked: 0
+  - name: Player
+    uniqueID: 1413629301
+    locked: 0
